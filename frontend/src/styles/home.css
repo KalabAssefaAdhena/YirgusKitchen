@@ -1,0 +1,45 @@
+.hero {
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+.hovereffect:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+}
+
+.heart-anim {
+  transition: 0.2s ease;
+}
+
+.heart-anim:hover {
+  transform: scale(1.2);
+}
+
+.rating-summary-wrapper {
+  z-index: 2;
+}
+
+.hover-popup {
+  z-index: 1000;
+  animation: fadeIn 0.2s ease-in-out;
+}
